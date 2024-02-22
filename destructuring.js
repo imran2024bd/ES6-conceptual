@@ -57,7 +57,23 @@ const myObject = {
 };
 
 const { student: pupil , teacher: prof} = myObject;
-console.log(pupil , prof);
+// console.log(pupil , prof);
 
 const { student , teacher} =myObject;
-console.log(student , teacher);
+// console.log(student , teacher);
+
+const employee = {
+    id: 007 ,
+    name: 'imran',
+    dept: 'stat'
+}
+
+const id = employee.id;
+const name = employee.name;
+
+// const { id, name}= employee;
+console.log(id, name);
+
+
+
+
