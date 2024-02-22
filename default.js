@@ -6,4 +6,9 @@ function add(num1 , num2 =0) {
 
 const sum = add (5 , 7);
 // const sum = add(3);
-console.log(sum);
+// console.log(sum);
+
+
+const obj = { foo: 1 };
+obj.bar = 2;
+ console.log(obj);
