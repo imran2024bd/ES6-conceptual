@@ -43,6 +43,10 @@ le.log(output2);
 
 
 
+Map ( value , index , inputted Array)
+
+
+
 
 
 
