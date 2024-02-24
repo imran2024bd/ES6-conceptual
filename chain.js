@@ -42,7 +42,18 @@ const user = {
 
 // to find second line of address 
 
-console.log(user.address.street.second);
+// console.log(user.address.street.second);        // porirbag er goli
 
 
+//  task -04
 
+const user2 = {
+    id : 5002,
+    name : 'pori bibir majar',
+    address : {
+        city : 'chittagong' ,
+        country : 'Bangladesh'
+    }
+}
+
+console.log(user2.address.street?.second);
