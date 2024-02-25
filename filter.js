@@ -19,7 +19,15 @@ const selected = players.filter( p => p % 2 === 0 );
 
 // console.log(selected);
 
+// total number of letter of each name which are odd
+// const friends = ['Tom' , 'John' , 'Micheal', 'Oliver'];
+// const oddFriend = friends.filter(friend => friend.length);
+// console.log(oddFriend);
+// console.log(friends.length);
 
-const friends = ['Tom' , 'John' , 'Micheal', 'Oliver'];
 
-
+// total number of letter of each name which are odd
+// task -02
+const friends = ['Tom' , 'John' , 'Micheal', 'Oliver' , 'Tim' , 'Joshna'];
+const oddFriend = friends.filter(friend => friend.length > 4);
+console.log(oddFriend);
