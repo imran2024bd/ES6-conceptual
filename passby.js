@@ -6,7 +6,7 @@ let num2 = 7 ;
 function multiply( a , b) {
     // a = 27;
     const result = a * b ;
-    rrimitiveeturn result;
+    return result;
 }
 
 const output = multiply(num1 , num2);
