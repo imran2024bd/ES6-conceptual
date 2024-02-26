@@ -1,4 +1,4 @@
-always use ===
+// always use ===
 // equal comparison does not work for non-primitive
 
 
